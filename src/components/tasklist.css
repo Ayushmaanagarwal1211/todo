@@ -1,0 +1,47 @@
+.list{
+    height: 80%;
+    overflow: scroll;
+    padding: 50px;
+}
+.body{
+}
+.t-head{
+    width: 100%;
+    text-align: center;
+}
+.column{
+    padding: 20px;
+    border-bottom: solid white 2px;
+    width: 25%;
+    font-size: 30px;
+
+}
+.data{
+    height: 0px;
+}
+td{
+    text-align: center;
+    font-size: 21px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.td{
+    border-bottom: solid white 2px;
+color: white;
+font-size: 30px;
+}
+.table{
+    width: 100%;
+
+}
+.render{
+animation: renderanimation 1s ease-in-out forwards ;
+}
+@keyframes renderanimation {
+    from{
+        height: 0px;
+    }to{
+        height: 100%;
+    }
+}
