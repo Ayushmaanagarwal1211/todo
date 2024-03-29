@@ -1,7 +1,7 @@
-#Clone the project
+# Clone the Project
 Clone the Project in your machine
 
-#install the dependencies 
+# Install The Required Dependencies
 ### `npm install`
 
 # Start the deployement Server
